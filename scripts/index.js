@@ -17,7 +17,6 @@ $(document).ready(function () {
   var videoCrossText = $(".video__cross-text");
   var videoCrossBox = $("#videoCross .cross__box");
 
-  // layer6.hide();
   layer8.hide();
   video.hide();
   layer61.hide();
@@ -50,8 +49,8 @@ $(document).ready(function () {
                     layer7l.removeClass("layer__7--left-animate");
                     layer7r.removeClass("layer__7--right-animate");
                     layer8.show();
-                  }, 7000);
-                }, 1000);
+                  }, 3000);
+                }, 5000);
               }, 1000);
             }, 2500);
           }, 1000);
